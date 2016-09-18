@@ -1,0 +1,23 @@
+{
+  "name": "marionettist-ui",
+  "version": "1.0.0",
+  "description": "marionettist user interface",
+  "main": "dist/marionettist-ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afterworkdevelopments/marionettist-ui.git"
+  },
+  "keywords": [
+    "marionettist",
+    "ui"
+  ],
+  "author": "Emilio Forrer <dev.emilio.forrer@gmail.com> (https://github.com/emilioforrer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afterworkdevelopments/marionettist-ui/issues"
+  },
+  "homepage": "https://github.com/afterworkdevelopments/marionettist-ui#readme"
+}
