@@ -1,6 +1,6 @@
 {
   "name": "marionettist-ui",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "marionettist user interface",
   "main": "dist/marionettist-ui.js",
   "scripts": {
@@ -21,18 +21,13 @@
   },
   "homepage": "https://github.com/afterworkdevelopments/marionettist-ui#readme",
   "devDependencies": {
-    "browserify": "^13.1.0",
     "chai": "^3.5.0",
     "chai-jq": "0.0.9",
-    "coffeeify": "^2.0.1",
-    "debowerify": "^1.5.0",
     "gulp": "^3.9.1",
-    "gulp-coffee": "^2.3.2",
     "gulp-concat": "^2.6.0",
     "gulp-cssimport": "^3.1.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-haml-coffee-compile": "0.0.1",
-    "gulp-include": "^2.3.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-sequence": "^0.4.5",
@@ -41,17 +36,14 @@
     "gulp-util": "^3.0.7",
     "jsdom": "^9.4.2",
     "mocha": "^3.0.2",
-    "pathmodify": "^0.5.0",
     "require-all": "^2.0.0",
-    "rollup-stream": "^1.12.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-coffee-script": "^1.1.0",
     "run-sequence": "^1.2.2",
     "sinon": "^1.17.5",
-    "sinon-chai": "^2.8.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "marionettist": "^3.0.0"
+    "marionettist": "^3.0"
   }
 }
