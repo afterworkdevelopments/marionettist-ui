@@ -1,0 +1,53 @@
+.mnt-tabs
+.mnt-tabs-nav
+  background-color: #4285f4
+  color: #fff
+.mnt-tabs-nav__list
+  position: relative
+  border-bottom: none
+  padding-left: 0
+  margin-bottom: 0
+  list-style: none
+  margin-top: 0
+  &::after
+    clear: both
+    display: table
+    content: " "
+  &::before
+    display: table
+    content: " "
+.mnt-tabs-nav__item
+  float: none
+  display: table-cell
+  width: 1%
+  margin-bottom: 0
+  position: relative
+  padding-left: 0
+  margin-bottom: 0
+  list-style: none
+  color: inherit
+  cursor: default
+  background-color: transparent
+  opacity: 0.54
+  outline: 0
+  padding: 18px 24px 17px
+  font-size: 14px
+  margin-right: 0
+  line-height: 1
+  border-radius: 0
+  text-transform: uppercase
+  font-weight: 500
+  border-bottom: 4px solid transparent !important
+.mnt-tabs-nav__item--active
+  opacity: 1
+  border-bottom: 4px solid #CC0 !important
+  transition: all .2s ease-in-out
+  display: table-cell
+  font-weight: bold
+
+.mnt-tabs-content__item
+  display: none
+
+.mnt-tabs-content__item--active
+  display: block
+  transition: all .2s ease-in-out
